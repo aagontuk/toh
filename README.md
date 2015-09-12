@@ -8,27 +8,27 @@ toh [OPTIONS] [FILE]
 
 ## [OPTIONS]
 
-**-c** : Count CPU time to move certain number of disk. If this option is specified -d
+**-c :** Count CPU time to move certain number of disk. If this option is specified -d
      option must be specified.
 
-**-d DISKNUMBER** : Specify number of disks to move 
+**-d DISKNUMBER :** Specify number of disks to move 
 
-**-m** : Move disk from one peg to another peg. If this option is specified -d, -f, -t
+**-m :** Move disk from one peg to another peg. If this option is specified -d, -f, -t
      options must be specified.
      -s, -p optional arguments can be specified. -m assumes -c by default.
 
-**-f** FROMPEG : Move DISKNUMBER disks FROMPEG tower. Towers are A, B and C.
+**-f FROMPEG :** Move DISKNUMBER disks FROMPEG tower. Towers are A, B and C.
 
-**-t** TOPEG : Move DISKNUMBER disks FROMPEG tower to TOPEG tower.
+**-t TOPEG :** Move DISKNUMBER disks FROMPEG tower to TOPEG tower.
            Towers are A, B and C.
 
-**-s** : This is an optional argument. If specified instructions will be shown to move
+**-s :** This is an optional argument. If specified instructions will be shown to move
      DISKNUMBER disks from FROMPEG tower to TOPEG tower
 
-**-p NUMBER** : Optional argument. If specified percentage of progress will be
+**-p NUMBER :** Optional argument. If specified percentage of progress will be
 		   shown in NUMBER% interval.
 
-**FILE** : Last argument is a file location. If specified outputs will be saved
+**FILE :** Last argument is a file location. If specified outputs will be saved
        in FILE rather than standard output.
 
 ## [EXAMPLE]
