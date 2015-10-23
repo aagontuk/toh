@@ -1,12 +1,12 @@
-## [NAME]
+### [NAME] ###
 
 toh - A commandline program for solving classical Tower of Hanoi problem.
 
-## [USAGE]
+### [USAGE] ###
 
 toh [OPTIONS] [FILE]
 
-## [OPTIONS]
+### [OPTIONS] ###
 
 **-c :** Count CPU time to move certain number of disk. If this option is specified -d
      option must be specified.
@@ -31,22 +31,23 @@ toh [OPTIONS] [FILE]
 **FILE :** Last argument is a file location. If specified outputs will be saved
        in FILE rather than standard output.
 
-## [EXAMPLE]
+### [EXAMPLE] ###
 
-**Following Will show time to move 30 disks in a particular CPU.**
+Show time to move 30 disks in a particular CPU:
 
-$ toh -c -d 30
+`$ toh -c -d 30`
 
-**Output**
+Output:
 
-It took: 0y, 0d, 0h, 0m, 39.848998s
+`It took: 0y, 0d, 0h, 0m, 39.848998s`
 
-**Following Will move 30 disk from peg A to peg C and report progress in 20% interval.**
+Move 30 disk from peg A to peg C and report progress in 20% interval:
 
-$ toh -m -d 30 -f A -t C -p 20
+`$ toh -m -d 30 -f A -t C -p 20`
 
-**Output**
+Output:
 
+```
 ###### Towers Of Hanoi ######
 
 Tower A: 0123456789ABCDEFGHIJKLMNOPQRST
@@ -69,13 +70,15 @@ Tower C: 0123456789ABCDEFGHIJKLMNOPQRST
 
 I needed 1073741823 Moves!
 It took: 0y, 0d, 0h, 0m, 57.050643s
+```
 
-**Following will move 3 disks from peg A to peg B and also show instructions.**
+Move 3 disks from peg A to peg B and also show steps:
 
-$ toh -m -s -d 3 -f A -t C
+`$ toh -m -s -d 3 -f A -t C`
 
-**Output**
+Output:
 
+```
 ###### Towers Of Hanoi ######
 
 Tower A: 012
@@ -99,3 +102,4 @@ Tower C: 012
 
 I needed 7 Moves!
 It took: 0y, 0d, 0h, 0m, 0.000249s
+```
