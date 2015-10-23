@@ -1,13 +1,13 @@
-### [NAME] ###
-
+### NAME ###
+---
 toh - A commandline program for solving classical Tower of Hanoi problem.
 
-### [USAGE] ###
-
+### USAGE ###
+---
 toh [OPTIONS] [FILE]
 
-### [OPTIONS] ###
-
+### OPTIONS ###
+---
 **-c :** Count CPU time to move certain number of disk. If this option is specified -d
      option must be specified.
 
@@ -31,7 +31,8 @@ toh [OPTIONS] [FILE]
 **FILE :** Last argument is a file location. If specified outputs will be saved
        in FILE rather than standard output.
 
-### [EXAMPLE] ###
+### EXAMPLE ###
+---
 
 Show time to move 30 disks in a particular CPU:
 
