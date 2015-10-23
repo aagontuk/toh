@@ -34,7 +34,7 @@ toh [OPTIONS] [FILE]
 ### EXAMPLE ###
 ---
 
-Show time to move 30 disks in a particular CPU:
+**Show time to move 30 disks in a particular CPU:**
 
 `$ toh -c -d 30`
 
@@ -42,7 +42,7 @@ Output:
 
 `It took: 0y, 0d, 0h, 0m, 39.848998s`
 
-Move 30 disk from peg A to peg C and report progress in 20% interval:
+**Move 30 disk from peg A to peg C and report progress in 20% interval:**
 
 `$ toh -m -d 30 -f A -t C -p 20`
 
@@ -73,7 +73,7 @@ I needed 1073741823 Moves!
 It took: 0y, 0d, 0h, 0m, 57.050643s
 ```
 
-Move 3 disks from peg A to peg B and also show steps:
+**Move 3 disks from peg A to peg B and also show steps:**
 
 `$ toh -m -s -d 3 -f A -t C`
 
